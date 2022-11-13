@@ -1,0 +1,226 @@
+
+
+body{
+    background-color:skyblue;
+
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display:inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-size:24px;
+    color:beige;
+}
+
+.nav-menu{
+    font-weight:400;
+    font-size:16px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-comment{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.sample{
+    background-color: yellow;
+    -webkit-text-stroke: 1px black;
+}
+
+.sample:hover{
+    background-color:transparent;
+    transition:none;
+    color:white;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.highlight{
+    color:white;
+    -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover{
+    background-color: yellow;
+    color:black;
+    transition:none;
+}
+
+.type1:hover{
+    background-color: greenyellow;
+}
+
+.type2:hover{
+    background-color: greenyellow;
+}
+
+.recent-menu{
+    font-size:15px;
+    weight: 700;
+    color:beige;
+
+    text-align:right;
+    margin-top: 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact{
+    font-size:50px;
+    font-weight: 700;
+    color:beige;
+    border-bottom: 2px solid beige;
+    margin-bottom:30px;
+    
+}
+
+.links>a{
+    color:black;
+    font-size:30px;
+    font-weight:400;
+    margin-left:70px;
+}
+
+.links>a:hover{
+    color:white;
+}
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 100px 100px;
+}
+
+#profile-picture{
+    width:400px;
+    margin-right:60px;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-size: 35px;
+}
+
+.introduction>p2{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 300;
+
+    margin-bottom: 40px;
+}
+
+#capacity{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.value-menu{
+    font-size: 35px;
+    margin: 30px 200px;
+}
+
+.value-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.value-intro{
+    margin-left: 30px;
+}
+
+.value-name{
+    font-weight: 700px;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+
+.value-exp{
+    font-weight: 300;
+    font-size: 16px;
+    margin:0px;
+}
+
+
+
+
+.footer-comment{
+    text-align: center;
+}
+
+.GITHUB{
+    margin-left: 100px;
+}
+
+a[title="social responsibility icons"]:hover{
+    color:black;
+    text-decoration: underline;
+}
+
